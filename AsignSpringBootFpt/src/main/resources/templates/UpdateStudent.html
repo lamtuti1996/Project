@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--để thông báo cho Spring biết file html hiện tại đang dùng Thymleaf   -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+	<nav th:replace="layout :: header"></nav>
+	
+			<div class="container main-content form">
+		<div class="row">
+			<form method="POST" novalidate="novalidate"
+				th:action="@{updateStudent}" th:object="${studentDTO}">
+				
+				
+				<div class="form-group">
+					<!-- 	<label th:text="Student ID"></label> -->
+						<input type="text" th:field="*{id}" th:value=${studentID}
+						th:errorclass="field-error"> <br>
+				</div>
+				<div class="form-group">
+						<!-- <label th:text="#{Stuent Mark}"></label> -->
+						<input type="text" th:field="*{mark}" th:value=${studentMark}
+						th:errorclass="field-error">
+				</div>
+				
+				<div class="form-group">
+						<!-- <label th:text="#{Name Major}"></label> -->
+						<input type="text" th:field="*{nameMajor}"  th:value=${studentMajor} 
+						th:errorclass="field-error">
+				</div>
+				
+				<br> <input type="submit" value="Save">
+
+			</form>
+		</div>
+	</div>
+		
+		
+		
+		
+	<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

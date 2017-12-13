@@ -1,0 +1,694 @@
+13:28:17 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:28:17 ICT 2017]; root of context hierarchy
+13:28:17 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:28:18 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:28:50 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Call Services-------
+13:28:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:51,213
+13:28:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:51,213
+13:28:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:51,213
+13:28:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:51,213 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:51,213 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:51,213 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:53,291
+13:28:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:53,305
+13:28:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:53,305
+13:28:54 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:53,291 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:54 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:53,305 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:54 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:53,305 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:55 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:55,358
+13:28:55 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:55,362
+13:28:55 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:55,365
+13:28:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:55,362 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:55,358 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:55,365 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:57 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:57,412
+13:28:57 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:57,418
+13:28:57 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 2017-10-26 13:28:57,430
+13:28:58 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:57,412 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:58 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:57,418 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:28:58 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 2017-10-26 13:28:57,430 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+13:29:26 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:29:26 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:29:26,959 Ping to address: 192.168.1.111 is: true on the time: 3 (milliseconds)
+13:29:26 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:29:26,958 Ping to address: 192.168.1.11 is: true on the time: 4 (milliseconds)
+13:29:26 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:29:27 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:29:27 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:29:27 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:29:36 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:29:26,958 Ping to address: 192.168.1.189 is: false
+13:33:59 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:33:59 ICT 2017]; root of context hierarchy
+13:33:59 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:34:00 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:34:08 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:34:08 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:08,535 Ping to address: 192.168.1.11 is: true on the time: 4 (milliseconds)
+13:34:08 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:08,535 Ping to address: 192.168.1.111 is: true on the time: 4 (milliseconds)
+13:34:08 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:34:08 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:34:08 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:34:08 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:34:18 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:08,536 Ping to address: 192.168.1.189 is: false
+13:34:29 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:19,145 Ping to address: 192.168.1.189 is: false
+13:34:40 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:30,159 Ping to address: 192.168.1.189 is: false
+13:34:51 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:34:41,162 Ping to address: 192.168.1.189 is: false
+13:35:52 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:35:52 ICT 2017]; root of context hierarchy
+13:35:52 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:35:52 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:36:04 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:36:04 ICT 2017]; root of context hierarchy
+13:36:04 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:36:04 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:36:12 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:36:12 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:12,967 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+13:36:12 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:12,967 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+13:36:13 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:36:13 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:36:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:36:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:36:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:12,967 Ping to address: 192.168.1.189 is: false
+13:36:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:23,654 Ping to address: 192.168.1.189 is: false
+13:36:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:34,645 Ping to address: 192.168.1.189 is: false
+13:36:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:36:45,646 Ping to address: 192.168.1.189 is: false
+13:41:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:41:13,121 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+13:41:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:41:13,121 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+13:41:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:41:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:45:26 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:45:26 ICT 2017]; root of context hierarchy
+13:45:26 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:45:26 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:45:32 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:45:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:45:32,499 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+13:45:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:45:32,499 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+13:45:32 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:45:32 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:45:32 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:45:32 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:45:42 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:45:32,499 Ping to address: 192.168.1.189 is: false
+13:45:53 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:45:43,175 Ping to address: 192.168.1.189 is: false
+13:46:04 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:45:54,155 Ping to address: 192.168.1.189 is: false
+13:46:15 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:46:05,148 Ping to address: 192.168.1.189 is: false
+13:47:10 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3cef309d: startup date [Thu Oct 26 13:47:10 ICT 2017]; root of context hierarchy
+13:47:10 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:47:10 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:47:20 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:47:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:20,190 Ping to address: 192.168.1.11 is: true on the time: 8 (milliseconds)
+13:47:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:20,191 Ping to address: 192.168.1.111 is: true on the time: 8 (milliseconds)
+13:47:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:20,190 Ping to address: 192.168.1.189 is: false
+13:47:41 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:31,159 Ping to address: 192.168.1.189 is: false
+13:47:52 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:42,162 Ping to address: 192.168.1.189 is: false
+13:48:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 13:47:53,155 Ping to address: 192.168.1.189 is: false
+13:48:15 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:48:17 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:48:26 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:59:12 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 13:59:12 ICT 2017]; root of context hierarchy
+13:59:12 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+13:59:12 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+13:59:20 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+13:59:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 13:59:20,506 Ping to address: 192.168.1.11 is: true on the time: 3 (milliseconds)
+13:59:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 13:59:20,506 Ping to address: 192.168.1.111 is: true on the time: 3 (milliseconds)
+13:59:20 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+13:59:20 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+13:59:20 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:59:20 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+13:59:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 13:59:20,506 Ping to address: 192.168.1.189 is: false
+14:08:39 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:08:39 ICT 2017]; root of context hierarchy
+14:08:39 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:08:40 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:09:13 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:09:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:13,785 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+14:09:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:13,785 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+14:09:13 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+14:09:13 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+14:09:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:09:13 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:09:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:13,785 Ping to address: 192.168.1.189 is: false
+14:09:34 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:24,661 Ping to address: 192.168.1.189 is: false
+14:09:45 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:35,657 Ping to address: 192.168.1.189 is: false
+14:09:56 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:09:46,645 Ping to address: 192.168.1.189 is: false
+14:10:07 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:10:07 ICT 2017]; root of context hierarchy
+14:10:07 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:10:07 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:10:14 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:10:14 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:14,895 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+14:10:14 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:14,895 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+14:10:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+14:10:14 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+14:10:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:10:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:10:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:14,895 Ping to address: 192.168.1.189 is: false
+14:10:35 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:25,651 Ping to address: 192.168.1.189 is: false
+14:10:46 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:36,663 Ping to address: 192.168.1.189 is: false
+14:10:57 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:10:47,667 Ping to address: 192.168.1.189 is: false
+14:15:15 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:15:15,011 Ping to address: 192.168.1.11 is: true on the time: 2 (milliseconds)
+14:15:15 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:15:15,017 Ping to address: 192.168.1.111 is: true on the time: 4 (milliseconds)
+14:15:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:15:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:16:00 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:16:10 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:16:00,357 Ping to address: 192.168.1.189 is: false
+14:16:21 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:16:11,145 Ping to address: 192.168.1.189 is: false
+14:16:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:16:22,149 Ping to address: 192.168.1.189 is: false
+14:16:43 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 2017-10-26 14:16:33,175 Ping to address: 192.168.1.189 is: false
+14:20:16 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:20:16 ICT 2017]; root of context hierarchy
+14:20:16 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:20:16 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:20:23 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:20:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:23,778 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+14:20:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:23,778 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+14:20:23 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+14:20:23 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+14:20:23 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:20:23 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:20:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:23,778 Ping to address: 192.168.1.189 is: false
+14:20:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:34,660 Ping to address: 192.168.1.189 is: false
+14:20:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:45,647 Ping to address: 192.168.1.189 is: false
+14:21:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:20:56,665 Ping to address: 192.168.1.189 is: false
+14:25:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:25:23,891 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+14:25:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:25:23,891 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+14:25:23 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:25:23 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:26:00 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:26:00 ICT 2017]; root of context hierarchy
+14:26:01 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:26:01 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:26:12 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:26:12 ICT 2017]; root of context hierarchy
+14:26:12 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:26:12 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:26:22 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:26:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:22,409 Ping to address: 192.168.1.11 is: true on the time: 16 (milliseconds)
+14:26:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:22,409 Ping to address: 192.168.1.111 is: true on the time: 16 (milliseconds)
+14:26:22 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:26:22 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:26:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:22,409 Ping to address: 192.168.1.189 is: false
+14:26:43 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:33,156 Ping to address: 192.168.1.189 is: false
+14:26:54 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:44,159 Ping to address: 192.168.1.189 is: false
+14:27:05 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:26:55,162 Ping to address: 192.168.1.189 is: false
+14:31:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:31:22,441 Ping to address: 192.168.1.11 is: true on the time: 3 (milliseconds)
+14:31:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:31:22,441 Ping to address: 192.168.1.111 is: true on the time: 3 (milliseconds)
+14:31:22 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:31:22 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:36:05 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:36:05 ICT 2017]; root of context hierarchy
+14:36:05 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:36:05 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:36:15 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:36:15 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:36:15,174 Ping to address: 192.168.1.111 is: true on the time: 10 (milliseconds)
+14:36:15 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:36:15,174 Ping to address: 192.168.1.11 is: true on the time: 10 (milliseconds)
+14:36:15 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+14:36:15 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+14:36:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:36:15 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+14:36:25 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:36:15,174 Ping to address: 192.168.1.189 is: false
+14:36:36 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:36:26,144 Ping to address: 192.168.1.189 is: false
+14:36:47 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:36:37,145 Ping to address: 192.168.1.189 is: false
+14:36:54 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:36:54 ICT 2017]; root of context hierarchy
+14:36:54 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:36:54 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:37:00 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:37:00 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:00,193 Ping to address: 192.168.1.111 is: true on the time: 3 (milliseconds)
+14:37:00 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:00,194 Ping to address: 192.168.1.11 is: true on the time: 2 (milliseconds)
+14:37:00 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:37:00 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:37:10 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:00,193 Ping to address: 192.168.1.189 is: false
+14:37:21 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:11,163 Ping to address: 192.168.1.189 is: false
+14:37:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:22,158 Ping to address: 192.168.1.189 is: false
+14:37:43 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:37:33,153 Ping to address: 192.168.1.189 is: false
+14:39:34 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:39:34 ICT 2017]; root of context hierarchy
+14:39:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:39:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:39:45 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Call Services-------
+14:39:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:45,548
+14:39:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:45,548
+14:39:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:45,548
+14:39:46 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:45,548 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:46 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:45,548 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:46 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:45,548 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:47,650
+14:39:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:47,672
+14:39:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:47,678
+14:39:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:47,650 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:47,678 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:47,672 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:49 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:49,722
+14:39:49 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:49,722
+14:39:49 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:49,722
+14:39:50 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:49,722 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:50 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:49,722 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:50 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:49,722 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 28 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:51,754
+14:39:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 29 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:51,770
+14:39:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 27 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 14:39:51,786
+14:39:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:51,754 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:51,770 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:39:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 14:39:51,786 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+14:40:03 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:40:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:40:03,436 Ping to address: 192.168.1.11 is: true on the time: 6 (milliseconds)
+14:40:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:40:03,438 Ping to address: 192.168.1.111 is: true on the time: 10 (milliseconds)
+14:40:03 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:40:03 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:40:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:40:03,438 Ping to address: 192.168.1.189 is: false
+14:40:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:40:14,146 Ping to address: 192.168.1.189 is: false
+14:40:35 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:40:25,147 Ping to address: 192.168.1.189 is: false
+14:43:33 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 14:43:33 ICT 2017]; root of context hierarchy
+14:43:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+14:43:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+14:43:44 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+14:43:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:43:44,192 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+14:43:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:43:44,192 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+14:43:44 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:43:44 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+14:43:54 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:43:44,192 Ping to address: 192.168.1.189 is: false
+14:44:05 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:43:55,145 Ping to address: 192.168.1.189 is: false
+14:44:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:44:06,146 Ping to address: 192.168.1.189 is: false
+14:44:27 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 14:44:17,147 Ping to address: 192.168.1.189 is: false
+14:44:32 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+15:06:05 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:06:05 ICT 2017]; root of context hierarchy
+15:06:05 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:06:05 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:06:11 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:06:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:11,891 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:06:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:11,891 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+15:06:11 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+15:06:12 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+15:06:12 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+15:06:12 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is faile
+15:06:21 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:11,891 Ping to address: 192.168.1.189 is: false
+15:06:32 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:22,647 Ping to address: 192.168.1.189 is: false
+15:06:43 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:33,646 Ping to address: 192.168.1.189 is: false
+15:06:54 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:06:44,645 Ping to address: 192.168.1.189 is: false
+15:07:22 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:07:22 ICT 2017]; root of context hierarchy
+15:07:22 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:07:22 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:07:29 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:07:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:07:30,005 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:07:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:07:30,005 Ping to address: 192.168.1.11 is: true on the time: 19 (milliseconds)
+15:07:30 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+15:07:30 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+15:07:39 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:07:30,005 Ping to address: 192.168.1.189 is: false
+15:07:50 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:07:40,646 Ping to address: 192.168.1.189 is: false
+15:08:01 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:07:51,646 Ping to address: 192.168.1.189 is: false
+15:08:12 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:08:02,646 Ping to address: 192.168.1.189 is: false
+15:11:46 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:11:46 ICT 2017]; root of context hierarchy
+15:11:46 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:11:46 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:13:33 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:13:33 ICT 2017]; root of context hierarchy
+15:13:33 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:13:33 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:13:35 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+15:13:35 INFO  org.springframework.jdbc.support.SQLErrorCodesFactory - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+15:15:43 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:15:43 ICT 2017]; root of context hierarchy
+15:15:43 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:15:43 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:15:50 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:15:50 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:15:50,314 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+15:15:50 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:15:50,314 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:15:51 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+15:15:51 INFO  com.azportal.service.warning.common.InsertDB - Insert data in DB is successfuly
+15:16:00 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:15:50,314 Ping to address: 192.168.1.189 is: false
+15:16:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:16:01,145 Ping to address: 192.168.1.189 is: false
+15:16:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:16:12,146 Ping to address: 192.168.1.189 is: false
+15:16:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:16:23,146 Ping to address: 192.168.1.189 is: false
+15:23:02 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:23:02 ICT 2017]; root of context hierarchy
+15:23:02 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:23:03 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:23:06 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:23:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:06,835 Ping to address: 192.168.1.111 is: true on the time: 12 (milliseconds)
+15:23:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:06,838 Ping to address: 192.168.1.11 is: true on the time: 26 (milliseconds)
+15:23:08 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:23:08 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:23:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:06,837 Ping to address: 192.168.1.189 is: false
+15:23:27 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:17,645 Ping to address: 192.168.1.189 is: false
+15:23:38 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:28,645 Ping to address: 192.168.1.189 is: false
+15:23:49 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:23:39,645 Ping to address: 192.168.1.189 is: false
+15:28:08 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:28:08,553 Ping to address: 192.168.1.111 is: true on the time: 2 (milliseconds)
+15:28:08 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:28:08,553 Ping to address: 192.168.1.11 is: true on the time: 3 (milliseconds)
+15:28:08 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:28:08 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:28:50 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:28:51 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:28:51 ICT 2017]; root of context hierarchy
+15:28:51 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:28:52 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:28:58 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:28:58 ICT 2017]; root of context hierarchy
+15:28:58 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:28:58 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:29:03 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:29:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:03,450 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:29:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:03,450 Ping to address: 192.168.1.11 is: true on the time: 15 (milliseconds)
+15:29:05 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:29:05 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:29:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:03,450 Ping to address: 192.168.1.189 is: false
+15:29:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:14,145 Ping to address: 192.168.1.189 is: false
+15:29:35 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:25,147 Ping to address: 192.168.1.189 is: false
+15:29:46 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:29:36,146 Ping to address: 192.168.1.189 is: false
+15:31:20 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:31:20 ICT 2017]; root of context hierarchy
+15:31:20 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:31:20 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:31:30 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:31:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:31:30,329 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+15:31:30 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:31:30,329 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:31:31 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:31:31 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:31:40 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:31:30,329 Ping to address: 192.168.1.189 is: false
+15:31:51 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:31:41,165 Ping to address: 192.168.1.189 is: false
+15:32:02 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:31:52,152 Ping to address: 192.168.1.189 is: false
+15:32:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:32:03,149 Ping to address: 192.168.1.189 is: false
+15:32:14 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:34:14 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:34:14 ICT 2017]; root of context hierarchy
+15:34:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:34:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:34:23 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:34:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:23,683 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+15:34:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:23,683 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+15:34:25 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:34:25 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:34:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:23,683 Ping to address: 192.168.1.189 is: false
+15:34:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:34,647 Ping to address: 192.168.1.189 is: false
+15:34:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:45,646 Ping to address: 192.168.1.189 is: false
+15:35:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:34:56,646 Ping to address: 192.168.1.189 is: false
+15:35:07 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:46:54 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:46:54 ICT 2017]; root of context hierarchy
+15:46:54 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:46:54 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:47:01 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:47:01 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:01,540 Ping to address: 192.168.1.111 is: true on the time: 16 (milliseconds)
+15:47:01 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:01,540 Ping to address: 192.168.1.11 is: true on the time: 17 (milliseconds)
+15:47:02 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:47:02 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:47:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:01,540 Ping to address: 192.168.1.189 is: false
+15:47:22 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:12,146 Ping to address: 192.168.1.189 is: false
+15:47:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:23,146 Ping to address: 192.168.1.189 is: false
+15:47:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:47:34,144 Ping to address: 192.168.1.189 is: false
+15:47:48 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+15:47:50 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+15:53:14 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 15:53:14 ICT 2017]; root of context hierarchy
+15:53:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+15:53:14 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+15:53:23 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+15:53:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:23,235 Ping to address: 192.168.1.111 is: true on the time: 3 (milliseconds)
+15:53:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:23,235 Ping to address: 192.168.1.11 is: true on the time: 4 (milliseconds)
+15:53:24 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:53:24 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:53:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:23,235 Ping to address: 192.168.1.189 is: false
+15:53:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:34,146 Ping to address: 192.168.1.189 is: false
+15:53:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:45,144 Ping to address: 192.168.1.189 is: false
+15:54:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:53:56,144 Ping to address: 192.168.1.189 is: false
+15:54:07 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:58:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:58:24,719 Ping to address: 192.168.1.111 is: true on the time: 16 (milliseconds)
+15:58:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:58:24,719 Ping to address: 192.168.1.11 is: true on the time: 16 (milliseconds)
+15:58:24 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:58:24 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+15:59:17 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 15:59:07,159 Ping to address: 192.168.1.189 is: false
+16:02:00 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 16:02:00 ICT 2017]; root of context hierarchy
+16:02:00 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+16:02:00 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+16:02:10 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+16:02:10 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:10,479 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+16:02:10 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:10,479 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+16:02:11 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:02:11 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:02:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:10,479 Ping to address: 192.168.1.189 is: false
+16:02:28 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Call Services-------
+16:02:28 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:28,940
+16:02:28 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:28,940
+16:02:28 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:28,941
+16:02:30 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:28,941 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:30 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:28,940 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:30 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:28,940 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:31,046
+16:02:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:31,057
+16:02:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:31,068
+16:02:31 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:21,147 Ping to address: 192.168.1.189 is: false
+16:02:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:31,046 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:31,068 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:31,057 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:33 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:33,127
+16:02:33 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:33,129
+16:02:33 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:33,132
+16:02:34 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:33,127 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:34 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:33,129 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:34 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:33,132 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:35 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:35,138
+16:02:35 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:35,145
+16:02:35 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 16:02:35,149
+16:02:36 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:35,138 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:36 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:35,145 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:36 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 16:02:35,149 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection refused: connect
+16:02:37 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:02:37 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:02:37 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:02:42 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:32,146 Ping to address: 192.168.1.189 is: false
+16:02:53 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:02:43,146 Ping to address: 192.168.1.189 is: false
+16:02:54 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:07:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:07:11,885 Ping to address: 192.168.1.111 is: true on the time: 0 (milliseconds)
+16:07:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 16:07:11,885 Ping to address: 192.168.1.11 is: true on the time: 0 (milliseconds)
+16:07:11 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+16:07:11 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:47:48 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 21:47:48 ICT 2017]; root of context hierarchy
+21:47:48 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+21:47:48 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+21:48:14 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+21:48:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:14,919 Ping to address: 192.168.1.11 is: true on the time: 1181 (milliseconds)
+21:48:17 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:14,919 Ping to address: 192.168.1.189 is: false
+21:48:21 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:18,646 Ping to address: 192.168.1.189 is: false
+21:48:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:14,921 Ping to address: 192.168.1.111 is: false
+21:48:25 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:22,645 Ping to address: 192.168.1.189 is: false
+21:48:29 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:26,645 Ping to address: 192.168.1.189 is: false
+21:48:35 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:25,645 Ping to address: 192.168.1.111 is: false
+21:48:35 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:48:37 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+21:48:46 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:36,645 Ping to address: 192.168.1.111 is: false
+21:48:49 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:48:47,645 Ping to address: 192.168.1.111 is: false
+21:48:54 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:48:55 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+21:50:36 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 21:50:35 ICT 2017]; root of context hierarchy
+21:50:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+21:50:36 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+21:50:42 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+21:50:42 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:42,393 Ping to address: 192.168.1.11 is: true on the time: 16 (milliseconds)
+21:50:44 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:50:45 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:42,394 Ping to address: 192.168.1.189 is: false
+21:50:45 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:42,393 Ping to address: 192.168.1.111 is: false
+21:50:49 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:46,148 Ping to address: 192.168.1.111 is: false
+21:50:49 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:46,147 Ping to address: 192.168.1.189 is: false
+21:50:53 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:50,146 Ping to address: 192.168.1.189 is: false
+21:50:53 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:50,146 Ping to address: 192.168.1.111 is: false
+21:50:57 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:54,147 Ping to address: 192.168.1.189 is: false
+21:50:57 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:50:54,147 Ping to address: 192.168.1.111 is: false
+21:51:02 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:51:03 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:51:03 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+21:51:03 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:51:03 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+21:51:03 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:53:04 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 21:53:04 ICT 2017]; root of context hierarchy
+21:53:04 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+21:53:04 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+21:53:10 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+21:53:11 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:10,865 Ping to address: 192.168.1.11 is: true on the time: 486 (milliseconds)
+21:53:12 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:53:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:10,864 Ping to address: 192.168.1.111 is: false
+21:53:13 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:10,864 Ping to address: 192.168.1.189 is: false
+21:53:17 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:14,648 Ping to address: 192.168.1.189 is: false
+21:53:17 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:14,647 Ping to address: 192.168.1.111 is: false
+21:53:21 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:18,155 Ping to address: 192.168.1.189 is: false
+21:53:25 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:22,145 Ping to address: 192.168.1.189 is: false
+21:53:28 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:18,164 Ping to address: 192.168.1.111 is: false
+21:53:33 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:53:33 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:53:39 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:53:29,145 Ping to address: 192.168.1.111 is: false
+21:53:44 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:53:44 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:55:56 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Call Services-------
+21:55:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:55:56,465
+21:55:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:55:56,465
+21:55:56 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:55:56,466
+21:56:17 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:55:56,465 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:17 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:55:56,466 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:17 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:55:56,465 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:18 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:18,658
+21:56:18 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:18,662
+21:56:18 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:18,662
+21:56:39 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:18,658 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:39 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:18,662 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:39 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:18,662 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:56:40 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:40,677
+21:56:40 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:40,690
+21:56:40 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:56:40,695
+21:57:01 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:40,677 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:01 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:40,695 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:01 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:56:40,690 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:02 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:57:02,689
+21:57:02 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:57:02,703
+21:57:02 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 21:57:02,711
+21:57:23 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:57:02,689 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:23 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:57:02,703 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:23 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 21:57:02,711 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+21:57:45 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:57:45 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:57:46 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:57:46 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:57:47 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:57:47 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:58:12 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:12,717 Ping to address: 192.168.1.11 is: true on the time: 14 (milliseconds)
+21:58:12 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:58:36 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:33,850 Ping to address: 192.168.1.189 is: false
+21:58:40 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:37,654 Ping to address: 192.168.1.189 is: false
+21:58:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:41,666 Ping to address: 192.168.1.189 is: false
+21:58:48 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:45,716 Ping to address: 192.168.1.189 is: false
+21:58:54 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:44,264 Ping to address: 192.168.1.111 is: false
+21:58:54 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:58:54 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:59:05 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:58:55,145 Ping to address: 192.168.1.111 is: false
+21:59:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:59:06,146 Ping to address: 192.168.1.111 is: false
+21:59:27 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 21:59:17,144 Ping to address: 192.168.1.111 is: false
+21:59:33 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+21:59:33 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+21:59:40 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Stop API Call Services-------
+22:02:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:02:45,593
+22:02:46 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:02:46,871
+22:02:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:02:47,449
+22:03:06 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:02:45,593 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:07 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:07,598
+22:03:07 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:02:46,871 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:08 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:02:47,449 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:08 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:08,882
+22:03:09 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:09,457
+22:03:28 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:07,598 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:29 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:29,619
+22:03:29 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:08,882 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:30 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:09,457 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:30 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:30,887
+22:03:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:31,465
+22:03:50 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:29,619 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:51,627
+22:03:51 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:30,887 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:03:31,465 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:03:52 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:52,895
+22:03:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:03:53,484
+22:04:09 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 22:04:09 ICT 2017]; root of context hierarchy
+22:04:09 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+22:04:09 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+22:04:16 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+22:04:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:16,283 Ping to address: 192.168.1.11 is: true on the time: 34 (milliseconds)
+22:04:18 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:04:19 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:16,283 Ping to address: 192.168.1.189 is: false
+22:04:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:20,144 Ping to address: 192.168.1.189 is: false
+22:04:26 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:16,284 Ping to address: 192.168.1.111 is: false
+22:04:26 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Call Services-------
+22:04:26 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:26,797
+22:04:26 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:26,798
+22:04:26 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:26,797
+22:04:27 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:24,145 Ping to address: 192.168.1.189 is: false
+22:04:31 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:28,146 Ping to address: 192.168.1.189 is: false
+22:04:37 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:04:37 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:04:37 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:27,145 Ping to address: 192.168.1.111 is: false
+22:04:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:26,797 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:04:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:26,798 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:04:47 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:26,797 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:04:48 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:38,144 Ping to address: 192.168.1.111 is: false
+22:04:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:48,883
+22:04:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:48,886
+22:04:48 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:04:48,896
+22:04:59 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:04:49,146 Ping to address: 192.168.1.111 is: false
+22:05:04 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:05:04 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:05:09 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:48,886 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:09 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:48,883 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:09 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:04:48,896 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:10 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:10,892
+22:05:10 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:10,900
+22:05:10 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:10,904
+22:05:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:10,892 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:10,900 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:31 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:10,904 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:32,900
+22:05:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:32,905
+22:05:32 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:05:32,909
+22:05:37 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Stop API Ping Services-------
+22:05:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:32,900 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:32,905 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:05:53 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:05:32,909 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:06:00 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:06:00 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:06:01 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:06:01 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:06:01 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:06:01 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:11:00 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:00,277
+22:11:01 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:01,011
+22:11:01 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:01,881
+22:11:21 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:00,277 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:22 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:01,011 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:22 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:22,281
+22:11:22 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:01,881 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:23 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:23,030
+22:11:23 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:23,888
+22:11:43 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:22,281 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:44 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:23,030 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:44 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 34 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:44,295
+22:11:44 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:23,888 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:11:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 36 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:45,047
+22:11:45 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - Thread 35 Request  to address: http://192.168.1.111:8888/ping in timeRequest: 26-10-2017 22:11:45,905
+22:11:59 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Stop API Call Services-------
+22:12:05 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:44,295 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:12:06 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:45,047 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:12:06 INFO  com.azportal.service.warning.httpcontroller.impl.APICallToService - TimeRequest: 26-10-2017 22:11:45,905 Request  to address: http://192.168.1.111:8888/ping is error: Connect to 192.168.1.111:8888 [/192.168.1.111] failed: Connection timed out: connect
+22:16:18 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 22:16:18 ICT 2017]; root of context hierarchy
+22:16:18 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+22:16:18 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+22:16:23 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+22:16:23 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:23,812 Ping to address: 192.168.1.11 is: true on the time: 29 (milliseconds)
+22:16:25 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:23,812 Ping to address: 192.168.1.189 is: false
+22:16:25 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:16:29 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:26,172 Ping to address: 192.168.1.189 is: false
+22:16:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:30,146 Ping to address: 192.168.1.189 is: false
+22:16:33 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:23,813 Ping to address: 192.168.1.111 is: false
+22:16:37 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:34,146 Ping to address: 192.168.1.189 is: false
+22:16:43 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:16:43 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:16:44 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:34,647 Ping to address: 192.168.1.111 is: false
+22:16:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:45,645 Ping to address: 192.168.1.111 is: false
+22:17:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:16:56,646 Ping to address: 192.168.1.111 is: false
+22:17:11 INFO  com.azportal.service.warning.common.SendInfo - Send Mail is successfuly
+22:17:11 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:17:20 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Stop API Ping Services-------
+22:26:03 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 22:26:03 ICT 2017]; root of context hierarchy
+22:26:03 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+22:26:03 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+22:26:14 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+22:26:14 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:14,910 Ping to address: 192.168.1.11 is: true on the time: 13 (milliseconds)
+22:26:16 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:14,911 Ping to address: 192.168.1.189 is: false
+22:26:16 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:26:20 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:17,163 Ping to address: 192.168.1.189 is: false
+22:26:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:21,145 Ping to address: 192.168.1.189 is: false
+22:26:24 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:14,910 Ping to address: 192.168.1.111 is: false
+22:26:28 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:25,145 Ping to address: 192.168.1.189 is: false
+22:26:30 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+22:26:30 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:26:35 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:26:25,645 Ping to address: 192.168.1.111 is: false
+22:27:44 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 22:27:44 ICT 2017]; root of context hierarchy
+22:27:44 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+22:27:44 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+22:27:51 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+22:27:51 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:27:51,091 Ping to address: 192.168.1.11 is: true on the time: 331 (milliseconds)
+22:27:51 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:27:51,090 Ping to address: 192.168.1.111 is: true on the time: 579 (milliseconds)
+22:27:52 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:27:51,090 Ping to address: 192.168.1.189 is: false
+22:27:53 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:27:53 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:27:56 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:27:53,146 Ping to address: 192.168.1.189 is: false
+22:28:00 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:27:57,146 Ping to address: 192.168.1.189 is: false
+22:28:04 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:01,146 Ping to address: 192.168.1.189 is: false
+22:28:07 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is Fail
+22:28:07 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:28:34 INFO  org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4d591d15: startup date [Thu Oct 26 22:28:34 ICT 2017]; root of context hierarchy
+22:28:34 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-dao-config.xml]
+22:28:35 INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [spring-common-config.xml]
+22:28:48 INFO  com.azportal.service.warning.httpcontroller.impl.HTTPControllerImpl - -----Start  API Ping Services-------
+22:28:48 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:48,683 Ping to address: 192.168.1.11 is: true on the time: 20 (milliseconds)
+22:28:50 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:28:51 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:48,683 Ping to address: 192.168.1.189 is: false
+22:28:55 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:52,645 Ping to address: 192.168.1.189 is: false
+22:28:58 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:48,684 Ping to address: 192.168.1.111 is: false
+22:28:59 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:56,646 Ping to address: 192.168.1.189 is: false
+22:29:02 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:28:59,646 Ping to address: 192.168.1.111 is: false
+22:29:03 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:29:00,646 Ping to address: 192.168.1.189 is: false
+22:29:06 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+22:29:06 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly
+22:29:06 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:29:03,645 Ping to address: 192.168.1.111 is: false
+22:29:10 INFO  com.azportal.service.warning.httpcontroller.impl.APIPingToService - TimeRequest: 26-10-2017 22:29:07,646 Ping to address: 192.168.1.111 is: false
+22:29:12 INFO  com.azportal.service.warning.common.SendInfo - Send Hip Chat is successfuly
+22:29:12 INFO  com.azportal.service.warning.common.SendInfo - Insert data in DB is successfuly

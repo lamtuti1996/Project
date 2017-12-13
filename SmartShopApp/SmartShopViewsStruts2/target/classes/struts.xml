@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="test" class="com.smartshop.views.controller.ViewsController"
+			method="setHome">
+			<result name="success">/WEB-INF/pages/Home.jsp</result>
+
+		</action>
+		<action name="setHome" class="com.smartshop.views.controller.ViewsController"
+			method="setHome">
+			<result name="success">/WEB-INF/pages/Home.jsp</result>
+
+		</action>
+		<action name="getProductByID" class="com.smartshop.views.controller.ViewsController"
+			method="getProductById">
+			<result name="success">/WEB-INF/pages/ProductDetail.jsp</result>
+		</action>
+
+		<action name="searchCategoryProduct" class="com.smartshop.views.controller.ViewsController"
+			method="searchCategoryProduct">
+			<result name="success">/WEB-INF/pages/Home.jsp</result>
+		</action>
+
+		<action name="addCart" class="com.smartshop.views.controller.ViewsController"
+			method="addProductCart">
+			<result name="success" type="redirectAction">showCart</result>
+		</action>
+
+		<action name="showCart" class="com.smartshop.views.controller.ViewsController"
+			method="getCart">
+			<result name="success">/WEB-INF/pages/ShowCart.jsp</result>
+		</action>
+
+		<action name="removeProduct" class="com.smartshop.views.controller.ViewsController"
+			method="removeProduct">
+			<result name="success" type="chain">showCart</result>
+		</action>
+
+		<action name="increaseQuanity" class="com.smartshop.views.controller.ViewsController"
+			method="increaseQuanity">
+			<result name="success" type="chain">showCart</result>
+		</action>
+
+		<action name="decreaseQuanity" class="com.smartshop.views.controller.ViewsController"
+			method="decreaseQuanity">
+			<result name="success" type="chain">showCart</result>
+		</action>
+
+		<action name="listOrder" class="com.smartshop.views.controller.ViewsController"
+			method="listOrder">
+			<result name="success">/WEB-INF/pages/ListOrder.jsp</result>
+		</action>
+
+		<action name="setCustomerInfo" class="com.smartshop.views.controller.ViewsController"
+			method="setCustomerInfo">
+			<result name="success">/WEB-INF/pages/CustomerInfo.jsp
+			</result>
+		</action>
+
+		<action name="saveCart" class="com.smartshop.views.controller.ViewsController"
+			method="saveCart">
+			<result name="success" type="chain">listOrder</result>
+		</action>
+
+		<action name="listOrderDetail" class="com.smartshop.views.controller.ViewsController"
+			method="listOrderDetail">
+			<result name="success">/WEB-INF/pages/OrderDetail.jsp
+			</result>
+		</action>
+
+		<action name="myAjaxAction" class="com.smartshop.views.controller.AjaxAction"
+			method="execute">
+			<result type="stream">
+				<param name="contentType">text/html</param>
+				<param name="inputName">inputStream</param>
+			</result>
+		</action>
+
+
+		<action name="admin" class="com.smartshop.views.controller.ViewsController"
+			method="checkLogin">
+			<result name="success">/WEB-INF/Content/admin.jsp</result>
+		</action>
+		<action name="login">
+			<result>/WEB-INF/Content/login.jsp</result>
+		</action>
+	</package>
+</struts>

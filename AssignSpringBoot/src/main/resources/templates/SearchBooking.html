@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base
+	th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+</head>
+<body>
+<form action="/AssignSpringMVC/searchBooking.html">
+		Enter code : <input type="text" value="" name="code" />
+		<button>Search</button>
+	</form>
+</body>
+</html>

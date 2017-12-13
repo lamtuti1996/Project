@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--Ä‘á»ƒ thÃ´ng bÃ¡o cho Spring biáº¿t file html hiá»‡n táº¡i Ä‘ang dÃ¹ng Thymleaf   -->
+<html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+	<nav th:replace="layout :: header"></nav>
+
+	<div class="container main-content form">
+
+
+		<div class="col-md-3"></div>
+		<!-- col-md-number : md là tùy thược vào độ phân giảu của máy ,màn hình  -->
+		<div class="col-md-6">
+			<div class="row">
+				<form method="POST" novalidate="novalidate"
+					th:action="@{/checkLogin}" th:object="${Users}">
+					<div class="form-group">
+						<label th:text="#{label.username}"></label> <input type="text"
+							class="form-control" th:field="*{username}"
+							placeholder="User Name" th:errorclass="field-error"> <label
+							th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></label>
+					</div>
+					<div class="form-group">
+						<label th:text="#{label.passwork}"></label> <input type="password"
+							class="form-control" th:field="*{password}"
+							placeholder="Passwork" th:errorclass="field-error"> <label
+							th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></label>
+					</div>
+					<br> <input type="submit" th:value="#{button.login}"
+						class="btn btn-success btn-sm">
+
+				</form>
+				<label th:text="${message}"></label>
+			</div>
+		</div>
+		<div class="col-md-2">
+			<div class="dropdown">
+				<a id="dLabel" role="button" data-toggle="dropdown" data-target="#"
+					href="#"> Language <span class="caret"></span>
+				</a>
+
+
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+
+					<li><a role="button" data-target="#" href="/login?lang=en">
+							English </a></li>
+					<li><a role="button" data-target="#" href="/login?lang=vn">
+							Vietnameese </a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans classpath:spring-beans-3.0.xsd
+       http://www.springframework.org/schema/tx classpath:spring-tx-3.0.xsd
+       http://www.springframework.org/schema/aop classpath:spring-aop-3.0.xsd">
+       
+    <bean id="DBManager" parent="transactionProxy">
+		<property name="target">
+			<bean class="com.azportal.service.warning.business.impl.DBManagerImpl">
+				<property name="transactionDao" ref="transactionDao"/>
+			</bean>
+		</property>
+	</bean>
+	
+</beans>

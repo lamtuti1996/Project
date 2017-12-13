@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base
+	th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<td>Code</td>
+				<td>Plane ID</td>
+				<td>Booking Date</td>
+				<td>Booking Time</td>
+				<td>Full Name</td>
+				<td>Fare</td>
+				<td>Departure Date</td>
+				<td>Departure Time</td>
+				<td>From City</td>
+				<td>To City</td>
+				<td>DUration</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="booking : ${listUser}">
+				<td th:text="${booking.code}"></td>
+				<td th:text="${booking.planeID}"></td>
+				<td th:text="${booking.bookingDate}"></td>
+				<td th:text="${booking.bookingTime}"></td>
+				<td th:text="${booking.fullName}"></td>
+				<td th:text="${booking.fare}"></td>
+				<td th:text="${booking.departureDate}"></td>
+				<td th:text="${booking.departureTime}"></td>
+				<td th:text="${booking.fromCity}"></td>
+				<td th:text="${booking.toCity}"></td>
+				<td th:text="${booking.duration}"></td>
+
+
+
+			</tr>
+
+		</tbody>
+	</table>
+</body>
+</html>

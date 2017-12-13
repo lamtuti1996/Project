@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+     <title>User form</title>
+</head>
+<body>
+	<form method="post"  novalidate="novalidate" th:action="@{user/save}" th:object="${user}">
+		 Username:<input type="text" class="form-control"  th:field="*{username}"  th:readonly="${isPersisted}" th:errorclass="field-error">
+		 <br>
+		  Password:<input type="text" class="form-control"  th:field="*{password}" th:errorclass="field-error">
+		 <br>
+		  Fullname:<input type="text" class="form-control"  th:field="*{fullname}" th:errorclass="field-error">
+		 <br>
+		 <input type="submit" value="save">
+		 
+	</form>
+
+</body>
+</html>

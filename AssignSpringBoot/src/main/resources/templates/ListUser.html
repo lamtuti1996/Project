@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base
+	th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<td>id</td>
+				<td>username</td>
+				<td>full name</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="user : ${listUser}" >
+				<td th:text="${user.username}"></td>
+				<td th:text="${user.passwork}"></td>
+				<td th:text="${user.fullName}"></td>
+			
+				<td><a th:href="@{/delete/{name}(name=${user.username})}">delete</a></td>
+				<td><a href="@{/edit/{name}(name=${user.username})} />">update</a></td>
+			</tr>
+		
+		</tbody>
+	</table>
+	<a href="@{/add}">Add User</a>
+</body>
+</html>

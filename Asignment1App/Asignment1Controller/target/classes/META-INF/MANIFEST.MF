@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Asignment1Controller
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lamtu
+Implementation-Vendor-Id: Asignment1App
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/Asignment1Ap
+ p/Asignment1Controller/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

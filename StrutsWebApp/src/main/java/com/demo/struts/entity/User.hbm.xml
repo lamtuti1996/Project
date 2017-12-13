@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.demo.struts.entity.User" table="Users">
+		<id name="Email" type="string">
+			<column name="Email" />
+			
+		</id>
+		<property name="createTime" type="string">
+			<column name="CreatedTime"  />
+		</property>
+		<property name="lastTime" type="string">
+			<column name="LastAccess" />
+		</property>
+		<property name="password" type="string">
+			<column name="password" />
+		</property>
+	</class>
+</hibernate-mapping>

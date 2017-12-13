@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.demo.struts.entity.Orders" table="Orders">
+		<id name="orderID" type="string">
+			<column name="OrderID" />
+		</id>
+		<property name="addressCustomer" type="string">
+			<column name="AddressCustomer"></column>
+		</property>
+		<property name="amount" type="double">
+			<column name="Amount"></column>
+		</property>
+		<property name="mobileCustomer" type="string">
+			<column name="MobileCustomer"></column>
+		</property>
+		<property name="nameCustomer" type="string">
+			<column name="NameCustomer"></column>
+		</property>
+		<property name="notes" type="string">
+			<column name="Notes"></column>
+		</property>
+		<property name="orderDate" type="string">
+			<column name="OrderDate"></column>
+		</property>
+		<property name="quatityOrder" type="int">
+			<column name="quatityOrder"></column>
+		</property>
+		<property name="status" type="string">
+			<column name="Status"></column>
+		</property>
+		<!-- <list-index name="orderDetailList" table="OrderDetail" inverse="true" 
+			lazy="true" fetch="select"> <key> <column name="OrderID" not-null="true" 
+			/> </key> <one-to-many class="com.demo.struts.entity.OrderDetail" /> </list> -->
+
+		<list name="orderDetailList" table="OrderDetail" inverse="true" cascade="all">
+			<key>
+				<column name="OrderID" not-null="true" />
+			</key>
+			<list-index column="index" />
+			<one-to-many class="com.demo.struts.entity.OrderDetail" />
+		</list>
+
+	</class>
+</hibernate-mapping>

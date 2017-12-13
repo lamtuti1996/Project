@@ -1,0 +1,28 @@
+.no-border {
+	border: none;
+	border-radius: 0px;
+}
+
+/*top-bar  */
+.top-bar {
+	background: #F5F5F5;
+	padding: 10px 0px;
+}
+
+.top-bar .lang {
+	font-size: 11px;
+}
+
+.top-bar .lang button {
+	border: none;
+	border-radius: 0px;
+}
+
+.top-bar .lang ul.dropdown-menu {
+	margin-top: 0px;
+}
+
+.top-link li {
+	float: left;
+	margin : 0px 15px 0px 0px ;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--Ä‘á»ƒ thÃ´ng bÃ¡o cho Spring biáº¿t file html hiá»‡n táº¡i Ä‘ang dÃ¹ng Thymleaf   -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: head"></head>
+<body>
+	<nav th:replace="layout :: header"></nav>
+	<div class="container main-content form">
+		<form method="POST" th:id="delete" novalidate="novalidate"
+			th:action="@{delete}"></form>
+		<table id="tblData" class="table table-striped">
+			<tr>
+				<th>Check</th>
+				<th>Id</th>
+				<th>Mark</th>
+				<th>Name Major</th>
+			</tr>
+			<tr th:each="list : ${listStudent}">
+				<td><input type="checkbox" class="check" name="active"
+					th:id="${list.id}" th:value="${list.id}" form="delete" /></td>
+				<td th:text="${list.id}" th:id="${'student' + (list.id)}"></td>
+				<td th:text="${list.mark}" th:id="${'mark' + (list.id)}"></td>
+				<td th:text="${list.nameMajor}" th:id="${'major' + (list.id)} "></td>
+		</table>
+
+
+		<!-- Pagination Bar -->
+		<!-- 		<div th:fragment='paginationbar'>
+			<div>
+				<ul class='pagination pagination-centered'>
+					<li th:class="${page.firstPage}?'disabled':''"><span
+						th:if='${page.firstPage}'>Fist</span> <a
+						th:if='${not page.firstPage}'
+						th:href='@{${page.url}(page=0,size=${page.size})}'>First</a></li>
+					<li th:class="${page.hasPreviousPage}? 'active' : 'disabled'">
+						<span th:if='${not page.hasPreviousPage}'>Ã‚Â«</span> <a
+						th:if='${page.hasPreviousPage}'
+						th:href='@{${page.url}(page=${page.number-2},size=${page.size})}'
+						title='Go to previous page'>Ã‚Â«</a>
+					</li>
+					<li th:each='item : ${page.items}'
+						th:class="${item.current}? 'active' : ''"><span
+						th:if='${item.current}' th:text='${item.number}'>1</span> <a
+						th:if='${not item.current}'
+						th:href='@{${page.url}(page=${item.number-1},size=${page.size})}'><span
+							th:text='${item.number}'>2</span></a></li>
+					<li th:class="${page.hasNextPage}? 'active' : 'disabled'"><span
+						th:if='${not page.hasNextPage}'>Ã‚Â»</span> <a
+						th:if='${page.hasNextPage}'
+						th:href='@{${page.url}(page=${page.number},size=${page.size})}'
+						title='Go to next page'>Ã‚Â»</a></li>
+					<li th:class="${page.lastPage}? 'disabled' : ''"><span
+						th:if='${page.lastPage}'>Last </span> <a
+						th:if='${not page.lastPage}'
+						th:href='@{${page.url}(page=${page.totalPages - 1},size=${page.size})}'>Last
+					</a></li>
+				</ul>
+			</div>
+		</div> -->
+		<div th:fragment='paginationbar'>
+			<div>
+				<ul class='pagination pagination-centered'>
+					<li class="${page.firstPage}?'disabled':''">
+						<!--Nếu là trang đầu tiên nó sẽ ẩn không click đc và hiện span  -->
+						<span th:if='${page.firstPage}'>Fist</span> <!--Nếu như là trang đầu tiên thì nó sẽ hiện  -->
+						<a th:if='${not page.firstPage}'
+						th:href='@{${page.url}(page=0,size=${page.size})}'>First </a> <!--không phải trang đầu tiên nó sẽ hiện để người chuyển về trang đầu tiên  -->
+					</li>
+					<li th:class="${page.hasPreviousPage}? 'active' : 'disabled'">
+						<!--Nếu là trang đầu tiên nó sẽ ẩn không click đc và hiện span  -->
+						<span th:if='${not page.hasPreviousPage}'>Ã‚Â«</span> <!--Nếu như là trang đầu tiên thì nó sẽ hiện  -->
+						<a th:if='${page.hasPreviousPage}'
+						th:href='@{${page.url}(page=${page.number-2},size=${page.size})}'
+						title='Go to previous page'>Ã‚Â«</a> <!--Không phải trang đầu tiên nó sẽ hiện để ng dùng dịch trang về trc  -->
+					</li>
+					<li th:each='item : ${page.items}'
+						th:class="${item.current}? 'active' : ''"><span
+						th:if='${item.current}' th:text='${item.number}'>1</span> <!--Nó sẽ lấy trang hiện tại và hiện ra -->
+						<a th:if='${not item.current}'
+						th:href='@{${page.url}(page=${item.number-1},size=${page.size})}'>
+							<span th:text='${item.number}'>1</span>
+					</a></li>
+					<li th:class="${page.hasNextPage}? 'active' : 'disabled'">
+						<!--Nếu là trang cuối cũng nó sẽ ẩn và hiện span  --> <span
+						th:if='${not page.hasNextPage}'>Ã‚Â»</span> <!--Nếu là trang cuối cùng  -->
+						<a th:if='${page.hasNextPage}'
+						th:href='@{${page.url}(page=${page.number},size=${page.size})}'
+						title='Go to next page'>Ã‚Â»</a>
+					</li>
+					<!--Nếu không phải trang cuối cũng sẽ hiện nút ấn trang tiếp theo  -->
+					<li th:class="${page.lastPage}? 'disabled' : ''">
+						<!--Nếu là trang cuối cùng sẽ ẩn và hiện span  --> <span
+						th:if='${page.lastPage}'>Last </span> <!--nếu là trang cuối cũng sẽ hiện  -->
+						<a th:if='${not page.lastPage}'
+						th:href='@{${page.url}(page=${page.totalPages - 1},size=${page.size})}'>Last
+					</a> <!--Nếu là trang cuối cùng sẽ  hiện để cho người dùng click  -->
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="btn-group btn-group-justified">
+			<div class="btn-group">
+				<!-- <button type="button" class="btn btn-default">Add</button> -->
+				<input type="button" id="add_click" class="btn btn-default"
+					th:value="#{button.add}">
+			</div>
+			<div class="btn-group">
+				<!-- <button type="button" id="update_click" class="btn btn-default">Update</button> -->
+				<input type="button" id="update_click" class="btn btn-default"
+					th:value="#{button.update}">
+			</div>
+			<div class="btn-group">
+				<!-- <button type="button" class="btn btn-default" id="delete_click">Delete</button> -->
+				<input type="button" id="delete_click" class="btn btn-default"
+					th:value="#{button.delete}">
+			</div>
+		</div>
+
+	</div>
+	<footer th:replace="layout :: footer"></footer>
+</body>
+</html>

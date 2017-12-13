@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base
+	th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+</head>
+<body>
+	<table border="1">
+		<thead>
+			<tr>
+				<td>Plane ID</td>
+				<td>From City</td>
+				<td>To City</td>
+				<td>Departure Date</td>
+				<td>Departure Time</td>
+				<td>Duration</td>
+				<td>Fare</td>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="list : ${listSearch}">
+				<td th:text="${list.planeID}"></td>
+				<td th:text="${list.fromCity}"></td>
+				<td th:text="${list.toCity}"></td>
+				<td th:text="${list.departureDate}"></td>
+				<td th:text="${list.departureTime}"></td>
+				<td th:text="${list.duration}"></td>
+				<td th:text="${list.fare}"></td>
+				<td><input type="checkbox" th:value="${list.planeID}"></td>
+
+
+			</tr>
+
+		</tbody>
+
+	</table>
+	<input type="submit" value="Save">
+</body>
+</html>

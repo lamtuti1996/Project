@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.demo.struts.entity.OrderDetail" table="OrderDetail">
+		<id name="orderDetailID" type="int">
+			<column name="OrderDetailID" />
+		</id>
+		<property name="amount" type="double">
+			<column name="Amount"></column>
+		</property>
+		<property name="price" type="double">
+			<column name="Price"></column>
+		</property>
+		<property name="quanity" type="int">
+			<column name="Quanity"></column>
+		</property>
+		 <many-to-one name="Orders" class="com.demo.struts.entity.Orders" fetch="select">
+            <column name="OrderID" not-null="true" />
+        </many-to-one>
+        
+         <many-to-one name="Product" class="com.demo.struts.entity.Product" fetch="select">
+            <column name="ProductID" not-null="true" />
+        </many-to-one>
+	</class>
+</hibernate-mapping>

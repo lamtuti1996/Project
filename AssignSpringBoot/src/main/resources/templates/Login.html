@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--để thông báo cho Spring biết file html hiện tại đang dùng Thymleaf   -->
+<html xmlns:th="http://www.thymeleaf.org"> 
+<head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base th:href="${@environment.getProperty('layout.thymleaf.admin.head.base.href')}" />
+</head>
+<body>
+	<form method="POST"  novalidate="novalidate" th:action="@{users/checkLogin}" th:object="${user}">
+		 Username:<input type="text"  th:field="*{username}"   th:errorclass="field-error">
+		 <br>
+		  Password:<input type="text"  th:field="*{password}" th:errorclass="field-error">
+		 <br>
+		 
+		 <input type="submit" value="Login">
+		 
+	</form>
+</body>
+</html>

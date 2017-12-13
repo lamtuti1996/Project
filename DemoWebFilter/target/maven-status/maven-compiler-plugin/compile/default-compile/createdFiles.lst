@@ -1,0 +1,8 @@
+com\dao\RoleDAO.class
+com\bean\RoleUser.class
+com\bean\User.class
+com\dao\UserDAO.class
+com\bean\Role.class
+com\controller\MyController.class
+com\dao\RoleDAOImpl.class
+com\dao\UserDAOImpl.class
